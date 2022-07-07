@@ -14,7 +14,7 @@ Unless otherwise stated, python scripts were run with python3.7.3, sys 3.7.3, nu
 Pathways analysis was performed with VMD/1.9.2 and the Pathways 1.2 plugin.
 
 # Pathways analysis:
-First, Pathways analysis [I. A. Balabin, X. Hu, D. N. Beratan, J.Comput.Chem . 2012, 33 , 906-910. DOI: 10.1002/jcc.22927] is performed on a simulation trajectory to extract the strongest electronic coupling paths between each donor atom on FAD and each acceptor atom on CPD. 
+First, Pathways analysis [I.A. Balabin, X. Hu, D.N. Beratan, J. Comput. Chem. 2012, 33, 906-910. DOI:10.1002/jcc.22927] is performed on a simulation trajectory to extract the strongest electronic coupling paths between each donor atom on FAD and each acceptor atom on CPD. 
 
 To generate the input files used for Pathways analysis, run 
 ```
