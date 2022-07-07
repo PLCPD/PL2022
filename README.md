@@ -10,8 +10,8 @@ Link:
 Here we present the scripts necessary to evaluate the extent of adenine’s involvement in the forwards ET repair process from flavin adenine dinucleotide (FADH–) to cyclobutane pyrimidine dimer (CPT) in the E. *coli* PL-CPD complex simulated at 310 Kelvin. 
 
 # Environment
-Unless otherwise stated, python scripts were run with python3.7.3, sys 3.7.3, numpy 1.16.2, re 2.2.1, csv 1.0, statistics and operator from Python3.7 library, matplotlib.pyplot from Python3 library, with the Debian GNU/Linux 10 (buster) OS, in the Linux 4.19.0-20-amd64 distribution with x86-64 architecture.
-Pathways analysis was performed with VMD/1.9.2 and the Pathways 1.2 plugin.
+Unless otherwise stated, python2.7 scripts were run with python2.7.16, sys 2.7.16, python3 scripts were run with python3.7.3, sys 3.7.3, statistics and operator from Python3.7 library, matplotlib.pyplot from Python3 library, and all python scripts used numpy 1.16.2, re 2.2.1, csv 1.0. with the Debian GNU/Linux 10 (buster) OS, in the Linux 4.19.0-20-amd64 distribution with x86-64 architecture.
+Pathways analysis and distance calculation was performed with VMD/1.9.2 and the Pathways 1.2 plugin.
 
 # Pathways analysis:
 First, Pathways analysis [I.A. Balabin, X. Hu, D.N. Beratan, J. Comput. Chem. 2012, 33, 906-910. DOI:10.1002/jcc.22927] is performed on a simulation trajectory to extract the strongest electronic coupling paths between each donor atom on FAD and each acceptor atom on CPD. 
