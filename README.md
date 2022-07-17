@@ -54,7 +54,7 @@ python3 stratification.py
 ```
 #### Descriptions of the outputs of stratification.py:
 *-f-atomistic-s#-strata.csv
-Contains matrices organized in descending order of the \<f\>stratum, one matrix for each stratum, tagged by the stratum’s average f.  In a given stratum’s matrix, the columns are the adenine atoms, and the rows are the number of frames identified to belong to that stratum.
+Contains matrices organized in descending order of the \<f\><sub>stratum</sub>, one matrix for each stratum, tagged by the stratum’s average f.  In a given stratum’s matrix, the columns are the adenine atoms, and the rows are the number of frames identified to belong to that stratum.
 
 *-f-atomistic-s#-strata-averages.csv contains the average fatomistic of each adenine atom for each stratum identified (average f value of each stratum provided in first column), and is therefore a matrix where the columns are the adenine atoms, and the rows are the strata identified. 
 
