@@ -62,11 +62,11 @@ Contains matrices organized in descending order of the \<f\><sub>stratum</sub>, 
 
 
 # Additional scripts:
-calculate_N6C7N10_O_distances.tcl calculates the distances between the set of oxygen atoms on CPD {O4,O4'} and the set of atoms {N6,C7,N10} on FAD (see main paper figure 1) over the trajectory. It was run in vmd/1.9.2 with 
+calculate_N6C7N10_O_distances.tcl calculates the distances between the set of oxygen atoms on CPD {O4,O4'} and the set of atoms {N6,C7,N10} on FAD (see main paper figure 1) over the MD trajectory. It was run in vmd/1.9.2 with 
 ```
 vmd -e calculate_N6C7N10_O_distances.tcl -dispdev text
 ```
-Electronic couplings (eqn 7a in citation) (from which you can calculate mean square couplings and coherence parameter C) for states S1 and S2 were calculated using the 1dnp-310K-getweightedcouplings-cc.py script, which was run as-included on the output log files of the Pathways analyses:
+Electronic couplings (eq 7a in citation) (from which you can calculate mean-square tunneling pathway products and values of the coherence parameter C) for states S1 and S2 were calculated using the 1dnp-310K-getweightedcouplings-cc.py script, which was run as-included on the output log files of the pathways analyses:
 ```
 python2.7 1dnp-310K-getweightedcouplings-cc.py
 ```
