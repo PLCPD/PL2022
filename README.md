@@ -3,9 +3,10 @@ This repository contains the tools to perform a comprehensive analysis of electr
 
 Any questions about the code can be directed to Ben Rousseau (b.g.rousseau@gmail.com) or Dr. Agostino Migliore (agostino.migliore@unipd.it).
 
-Citation:
+Citation: Rousseau, B. J. G.;  Migliore, A.;  Stanley, R. J.; Beratan, D. N. Adenine Fine-Tunes DNA Photolyase’s Repair Mechanism. J. Phys. Chem. B 2023, 127, 2941-2954.
 
-Link:
+
+Link: https://pubs.acs.org/doi/full/10.1021/acs.jpcb.3c00566
 
 Here we present the scripts necessary to evaluate the extent of adenine’s involvement in the forward ET repair process from flavin adenine dinucleotide (FADH–) to cyclobutane pyrimidine dimer (CPT) in the E. *coli* PL-CPD complex simulated at 310 Kelvin. 
 
